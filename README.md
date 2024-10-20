@@ -64,7 +64,7 @@
 ## Запуск интерфейса обученной модели
 ### Требования
 - Python >=3.9
-- Загрузить необходимые библиотеки через **pip install torch torchvision numpy opencv-python pillow tk ultralytics**
+- Загрузить необходимые библиотеки через **pip install torch torchvision numpy opencv-python pillow tk ultralytics pyqt5**
 
 1. Скачайте и разархивируйте ZIP архив репозитория.
 2. Запустите файл GUI_predict.py
