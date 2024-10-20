@@ -53,7 +53,7 @@
 
 ## Использование инструмента разметки makesense.ai
 
-1. Чтобы просмотреть наш датасет, скачайте его по ссылке: [Google Drive](https://drive.google.com/drive/folders/1V4Ac5tm1_94Mqqv4stVo-h5rYWhV-RgZ?usp=drive_link).
+1. Чтобы использовать наш датасет, скачайте его по ссылке: [Google Drive](https://drive.google.com/drive/folders/1V4Ac5tm1_94Mqqv4stVo-h5rYWhV-RgZ?usp=drive_link).
 2. Перейдите на сайт: [makesense.ai](https://makesense.ai).
 3. Нажмите на кнопку **Get started**.
 4. Загрузите изображения из папки **images** датасета.
