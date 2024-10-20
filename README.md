@@ -26,6 +26,7 @@ Healthy - 100; Gap - 116; Crowding - 132; Missing - 44
 
 ## Метрики
 Результаты обучения представлены метриками: <img src="https://github.com/dmitry-zhurav1ev/OrthDetect/blob/main/readme_images/results.png" alt="Description" width="800">
+
 Для нас наиболее важны следующие данные:
 ### 1. **Precision ≈ 0.5**
 - **Precision** (точность) показывает, какой процент предсказаний модели является правильным. Значение 0.5 означает, что половина всех предсказаний модели верна. Это может свидетельствовать о том, что модель имеет много ложных срабатываний (false positives). Резкие скачки на графике могут быть результатом того, что некоторые классы, такие как Healthy и Crowding, показывают нестабильное поведение на разных уровнях уверенности, что мы можем увидеть на этом графике: <img src="https://github.com/dmitry-zhurav1ev/OrthDetect/blob/main/readme_images/P_curve.png" alt="Description" width="400"> 
