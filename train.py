@@ -37,7 +37,7 @@ model = YOLO("yolo11m.pt")  # load a pretrained model (recommended for training)
 
 if __name__ ==  '__main__':
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    results = model.train(data=os.path.join(script_dir, 'dataset_teeth6', 'data.yaml'), epochs=3, imgsz=640, workers = 2, lr0=0.001)
+    results = model.train(data=os.path.join(script_dir, 'dataset_teeth', 'data.yaml'), epochs=50, imgsz=640, workers = 2, lr0=0.001)
     runs_dir = os.path.join(script_dir, "runs", "detect")
     image_path = os.path.join(find_latest_directory(runs_dir), "results.png")
     display_image(image_path)
