@@ -61,7 +61,7 @@
 7. Для импорта аннотаций выберите в верхнем меню **Actions** -> **Import Annotations** -> **Multiple files in YOLO format along with labels names definition - labels.txt file**, затем загрузите текстовые файлы из папки **labels** датасета (labels.txt уже туда включен).
 
 ## Запуск интерфейса обученной модели
-# Требования
+### Требования
 - Python >=3.9
 - Загрузить необходимые библиотеки через **pip install torch torchvision numpy opencv-python pillow tk ultralytics**
 
